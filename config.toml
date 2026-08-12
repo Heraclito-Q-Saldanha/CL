@@ -1,0 +1,8 @@
+title = "Comunidade Libertária"
+icon_path = "icon.png"
+admin_public_keys = []
+file_path = "/app/data/files"
+
+public_https_address = "cl.alvorada.me"
+public_ipv4_address = "149.56.96.13"
+public_ipv6_address = "2607:5300:205:200::a5a4"

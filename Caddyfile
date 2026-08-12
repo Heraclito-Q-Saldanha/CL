@@ -1,0 +1,5 @@
+import /etc/caddy/extras/*.caddy
+
+cl.alvorada.me {
+    reverse_proxy antares:6464
+}
