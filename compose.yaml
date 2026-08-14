@@ -1,7 +1,7 @@
 services:
-  antares:
-    image: heraclitoqsaldanha/antares-server:latest
-    container_name: antares
+  harmon:
+    image: heraclitoqsaldanha/harmon-server:latest
+    container_name: harmon
     restart: unless-stopped
     working_dir: /app
     networks:
@@ -16,7 +16,7 @@ services:
     volumes:
       - ./config.toml:/app/config.toml:ro
       - ./icon.png:/app/icon.png:ro
-      - antares:/app/data
+      - harmon:/app/data
   caddy:
     image: caddy:2.11.4
     container_name: caddy
@@ -32,7 +32,7 @@ services:
       - 443:443
 
 volumes:
-  antares:
+  harmon:
   caddy_data:
   caddy_config:
 
