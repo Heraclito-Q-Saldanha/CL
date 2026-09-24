@@ -1,5 +1,0 @@
-import /etc/caddy/extras/*.caddy
-
-cl.alvorada.me {
-    reverse_proxy harmon:6464
-}
