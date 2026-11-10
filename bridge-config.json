@@ -1,0 +1,13 @@
+{
+    "harmon": {
+        "url": "wss://cl.alvorada.me/ws",
+        "profileName": "Discord Bridge"
+    },
+    "channels": [
+        {
+            "discordChannelId": "1506346684064596028",
+            "harmonChannelId": "01a0d148-6586-70e0-baf1-791d6bbc797f",
+            "webhookName": "harmon-bridge-geral"
+        }
+    ]
+}
