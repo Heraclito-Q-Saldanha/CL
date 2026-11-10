@@ -8,6 +8,11 @@
             "discordChannelId": "1506346684064596028",
             "harmonChannelId": "01a0d148-6586-70e0-baf1-791d6bbc797f",
             "webhookName": "harmon-bridge-geral"
+        },
+        {
+            "discordChannelId": "1569470279602671757",
+            "harmonChannelId": "01a1c3b7-9896-7471-b82b-fb40eb1439be",
+            "webhookName": "harmon-bridge-ele-e-o-papa"
         }
     ]
 }
